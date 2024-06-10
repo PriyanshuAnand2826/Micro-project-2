@@ -1,0 +1,278 @@
+body {
+  overflow-x: hidden;
+}
+.main-container{
+  position: relative;
+}
+.navbar{
+  height:10vh;
+  background-color:#6F6AF7;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  position: relative;
+}
+.dappr{
+  position: absolute;
+  left:2%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.text-container{
+  display: flex;
+  gap: 30px ;
+  font-weight: lighter;
+  font-size: large;
+  position: absolute;
+  left: 26%;
+  font-family: 'DM Sans';
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 60%;
+}
+
+form {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: white;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-family: 'DM Sans';
+}
+
+button {
+
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+
+button i {
+  color: #555;
+}
+
+.icon{
+  height: 100%;
+  position: absolute;
+  left: 90%;
+  display: flex;
+  align-items: center;
+}
+.coding-container{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.coding-img{
+ height: 70%;
+ position: absolute;
+ left: 12%;
+ top: 12%;
+
+
+
+}
+
+.text-a{
+  position: absolute;
+  height: 70%;
+ width: 50vw;
+ left: 37%;
+ top: 12%;
+ background-color:#E5D8FF;
+ border: none;
+ border-radius: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ font-family: 'DM Sans', sans-serif;
+ font-size: medium;
+ box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); 
+
+ 
+}
+.social-image{
+  float: right;
+  position: sticky;
+  display: flex;
+  height: 30vh;
+  top: 6%;
+ margin-top: 70px;
+}
+.mid-content{
+  margin-left: 30px;
+  margin-right: 10px;
+  display: flex;
+  padding-left: 10px;
+  gap: 20px;
+}
+.mid-content div{
+  width: 20%; 
+  margin-left:25px;
+  border-radius: 8px;
+  padding-left: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.mid-content .first-container{
+  background-color: #929DFF;
+}
+.mid-content .second-container{
+  background-color: #734CF2;
+}
+.mid-content .third-container{
+  background-color: #D288FF;
+}
+.mid-content  .fourth-container{
+  background-color: #000000;
+}
+.mid-content p{
+  font-family: 'DM Sans';
+  font-weight: normal;
+  font-size: medium;
+  color: white;
+  padding-left: 13px;
+}
+
+.last-container{
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  background-color: #483EFF;
+  margin-inline: auto;
+  margin-top: 70px;
+  
+  border-radius: 12px;
+}
+.last-container .left-last-part{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.left-last-part  .first-button {
+  background-color: #BCE0F6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
+  border: none;
+  font-size:medium;
+  font-weight:bold;
+  color: black;
+}
+.left-last-part  button{
+  width: 60%;
+  height: 15%;
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-size: medium;
+  font-weight: normal;
+}
+.last-container .last-right-part{
+  background-color: white;
+  width: 60%;
+  height: 60vh;
+  margin-block: auto;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-inline: auto;
+  padding: 10px;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: large;
+  color: #04285A;
+  padding-left: 30px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.last-right-part > .list-items{
+  list-style: none;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: medium;
+  padding-top: 8px;
+  line-height: 30px;
+  color: #04285A;
+}
+
+.span-item{
+  font-size: small;
+  font-weight: normal;
+  color: #143565 ;
+}
+.next-button {
+  display: inline-flex;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: inline-end;
+  align-self: flex-end;
+  position: absolute;
+  bottom:0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.next-button .arrow {
+  margin-left: 10px;
+}
+.talkback-container{
+  z-index: 1;
+  height: 80vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 85%;
+  right: 4%;
+  position: fixed;
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
